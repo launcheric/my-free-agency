@@ -27,10 +27,11 @@
   },
   "scripts": {
     "test": "node_modules/.bin/karma start karma.conf.js",
-    "start": "npm run webpack -- --watch",
+    "start": "./bin/webpack-dev-server"
   },
   "engines": {
     "node": ">=6.0.0",
+    "yarn": ">=0.25.2"
   },
   "author": "",
   "license": "ISC"
